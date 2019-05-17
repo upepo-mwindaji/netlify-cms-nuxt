@@ -7,8 +7,8 @@ collections:
     label: "Pages"
     files:
     - label: "Home"
-      name: "index"
-      file: "content/index.md"
+      name: "home"
+      file: "content/home.md"
       slug: "{{slug}}"
       fields:
         - { label: "Title", name: "title", widget: "string"}
