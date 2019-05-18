@@ -13,6 +13,9 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    'vue/no-v-html': 'off'
+    'vue/no-v-html': 'off',
+    'func-call-spacing': 'off',
+    'no-console': 'off',
+    'vue/require-prop-types': 'off'
   }
 }
