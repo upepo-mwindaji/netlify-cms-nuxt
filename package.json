@@ -11,7 +11,8 @@
     "generate": "nuxt generate && node cms/copycss.js generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "git push origin master"
   },
   "dependencies": {
     "@nuxtjs/bulma": "^1.2.1",
