@@ -6,9 +6,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build && node cms/copycss.js build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate && node cms/copycss.js generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "test": "jest"

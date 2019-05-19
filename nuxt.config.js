@@ -48,6 +48,10 @@ export default {
   ** Build configuration
   */
   build: {
+    extractCSS: true,
+    filenames: {
+      css: ({ isDev }) => isDev ? '[name].css' : '[name].[contenthash].css'
+    },
     postcss: {
       preset: {
         features: {
